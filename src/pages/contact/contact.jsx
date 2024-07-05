@@ -5,13 +5,13 @@ import { MainInput } from "../../components/Ui/input";
 
 export const Contact = () => {
   return (
-    <div className="container">
+    <div className="container contact">
       <h1 className="contact__title">Contact Us</h1>
       <p className="contact__text">
         Have questions? Contact us using the form below or via the provided
         contact information.
       </p>
-      <form className="max-w-lg mx-auto">
+      <form className="form">
         <div className="mb-4">
           <label htmlFor="name">Name</label>
           <MainInput type="text" placeholder="Your Name" />
