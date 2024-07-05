@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import { MainButton } from "../../components/Ui/Main-button";
+import { MainInput } from "../../components/Ui/input";
 
 export const Contact = () => {
   return (
@@ -12,16 +14,11 @@ export const Contact = () => {
       <form className="max-w-lg mx-auto">
         <div className="mb-4">
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your Name" />
+          <MainInput type="text" placeholder="Your Name" />
         </div>
         <div className="mb-4">
           <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your Email"
-          />
+          <MainInput type="text" placeholder="username" />
         </div>
         <div className="mb-4">
           <label htmlFor="message">Message</label>
@@ -32,7 +29,7 @@ export const Contact = () => {
             placeholder="Your Message"
           ></textarea>
         </div>
-        <button type="submit">Submit</button>
+        <MainButton className="primary">Submit</MainButton>
       </form>
     </div>
   );

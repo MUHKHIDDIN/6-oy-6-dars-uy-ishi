@@ -3,7 +3,7 @@
   margin-left: 370px;
   color: rgb(252, 29, 0);
   margin-bottom: 20px;
-  transition: color 0.3s ease; 
+  transition: color 0.3s ease;
 }
 
 .home__title:hover {
@@ -13,5 +13,13 @@
 .home__text {
   text-align: center;
   margin-bottom: 20px;
-  font-weight: 500; 
+  font-weight: 500;
+}
+.home__img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 370px;
+  margin-bottom: 20px;
 }

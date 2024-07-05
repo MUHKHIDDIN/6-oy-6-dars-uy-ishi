@@ -1,0 +1,32 @@
+ .input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 0 10px;
+ }
+
+ .primary{
+    background-color: rgb(64, 64, 230);
+    color: white;
+ }
+
+ .secondary{
+    background-color: rgb(64, 230, 108);
+    color: white;
+ }
+
+ .danger{
+    background-color: rgb(230, 72, 64);
+    color: white;
+ }
+
+ .success{
+    background-color: rgb(255, 0, 230);
+    color: white;
+ }
+
+
+ .placeholder{
+    color: #ec0202;
+ }
